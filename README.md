@@ -20,14 +20,14 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 ## Product class
 ### Attributes
--> price
--> id
--> quantity
+- price
+- id
+- quantity
 
 ### Methods
--> getters
--> increasePrice()
--> decreasePrice()
--> increaseQuantity()
--> decreaseQuantiry()
--> getTotalPrice()
+- getters
+- increasePrice()
+- decreasePrice()
+- increaseQuantity()
+- decreaseQuantiry()
+- getTotalPrice()
