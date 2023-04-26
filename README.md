@@ -31,3 +31,16 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 - increaseQuantity()
 - decreaseQuantiry()
 - getTotalPrice()
+
+## Inventory class
+### Attributes
+- Map<Integer, Product> store
+
+### Methods
+- addProduct()
+- removeProduct()
+- increaseProductQuantity()
+- decreaseProductQuantiry()
+- increaseProductPrice()
+- decreaseProductPrice()
+- showInventory()
