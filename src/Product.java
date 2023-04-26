@@ -32,7 +32,7 @@ public class Product {
         this.price = this.price - price;
     }
 
-    public void increaseQuantiry(int quantity) {
+    public void increaseQuantity(int quantity) {
         this.quantity = this.quantity + quantity;
     }
 
