@@ -1,5 +1,6 @@
 ## Product class
 ### Attributes
+- name
 - price
 - id
 - quantity
