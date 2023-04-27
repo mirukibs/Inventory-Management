@@ -28,8 +28,6 @@ public class Product {
         return name;
     }
 
-    // ========================== METHODS ================================
-
     public void increasePrice(double price) {
         this.price = this.price + price;
     }

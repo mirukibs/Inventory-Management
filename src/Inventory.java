@@ -9,8 +9,6 @@ public class Inventory {
         this.store = new HashMap<Integer,Product>();
     }
 
-    // ======================= METHODS ============================
-
     public boolean addProduct(Product myProduct) {
         if (this.store.containsKey(myProduct.getId())) {
             return false;
