@@ -6,7 +6,10 @@
 - quantity
 
 ### Methods
-- getters
+- getName()
+- getPrice()
+- getId()
+- getQuantity()
 - increasePrice()
 - decreasePrice()
 - increaseQuantity()
