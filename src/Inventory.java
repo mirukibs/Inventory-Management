@@ -40,14 +40,15 @@ public class Inventory {
     }
 
     public void showInventory() {
-        System.out.println();
         for (Product myProduct: this.store.values()) {
             System.out.println(
-                "Product Id: " + myProduct.getId() + "\n" +
-                "Product Price: " + myProduct.getPrice() + "\n" +
-                "Product Quantity: " + myProduct.getQuantity() + "n" +
+                myProduct.getName() + "\n" + 
+                "Product ID: " + myProduct.getId() + "\t" +
+                "Price: " + myProduct.getPrice() + "\t" +
+                "Quantity: " + myProduct.getQuantity() + "\t" +
                 "Total Cost: " + myProduct.getTotalPrice()
             );
+            System.out.println();
         }
     }
 }

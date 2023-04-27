@@ -3,8 +3,10 @@ public class Product {
     private int id;
     private double price;
     private int quantity;
+    private String name;
 
-    public Product(int id, double price, int quantity) {
+    public Product(String name, int id, double price, int quantity) {
+        this.name = name;
         this.id = id;
         this.price = price;
         this.quantity = quantity;
@@ -20,6 +22,10 @@ public class Product {
 
     public int getQuantity() {
         return quantity;
+    }
+
+    public String getName() {
+        return name;
     }
 
     // ========================== METHODS ================================
