@@ -13,6 +13,8 @@ public class App {
         stock.addProduct(product3);
         stock.addProduct(product4);
 
+        product1.decreaseQuantity(20);
+
         stock.showInventory();
     }
 }
